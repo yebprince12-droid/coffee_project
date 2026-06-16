@@ -502,3 +502,30 @@ h1 {
   left: 600px;
   top: 2320px;
 }
+.social-container {
+  display: flex;
+  gap: 20px;
+  font-size: 45px; /* Controls the size of the icons */
+  margin-left: -500px;
+}
+
+/* Base styles for the links */
+.social-container a {
+  color: #a4a4a4; /* A calm, premium dark grey instead of harsh black */
+  transition: color 0.3s ease; /* Smooth color change on hover */
+  text-decoration: none;
+}
+
+/* Hover effects for individual brands */
+.social-container a:hover {
+  color: #1877f2;
+}
+.social-container a:hover .fa-instagram {
+  color: #e4405f;
+}
+.social-container a:hover .fa-whatsapp {
+  color: #25d366;
+}
+.social-container a:hover .fa-phone {
+  color: #34b7f1;
+}
